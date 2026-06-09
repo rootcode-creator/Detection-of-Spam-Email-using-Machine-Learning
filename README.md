@@ -1,16 +1,17 @@
-<h1 align="center">Spam Email Detection using Machine Learning</h1>
+<h1 align="center"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Crect x='2' y='5' width='24' height='18' rx='5' fill='%230F766E'/%3E%3Cpath d='M5 8.5h18v11H5z' fill='none' stroke='%23FFFFFF' stroke-width='1.8'/%3E%3Cpath d='M5.8 9.2 14 15.1l8.2-5.9' fill='none' stroke='%23FFFFFF' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" alt="mail icon" width="28" height="28" style="vertical-align:middle;margin-right:10px;" />Spam Email Detection using Machine Learning</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-READY-111827?style=flat-square&labelColor=0F172A" alt="Status" />
-  <img src="https://img.shields.io/badge/DOMAIN-NLP%20%2F%20ML-111827?style=flat-square&labelColor=0F766E" alt="Domain" />
-  <img src="https://img.shields.io/badge/LICENSE-ACADEMIC-111827?style=flat-square&labelColor=1D4ED8" alt="License" />
+  <img src="https://img.shields.io/badge/PROJECT-SPAM%20DETECTION-E11D48?style=for-the-badge&labelColor=7F1D1D" alt="Spam detection project" />
+  <img src="https://img.shields.io/badge/STATUS-COMPLETED-22C55E?style=for-the-badge&labelColor=14532D" alt="Completed" />
+  <img src="https://img.shields.io/badge/DOMAIN-NLP%20%2F%20ML-06B6D4?style=for-the-badge&labelColor=155E75" alt="NLP and machine learning" />
+  <img src="https://img.shields.io/badge/LICENSE-ACADEMIC-38BDF8?style=for-the-badge&labelColor=1E3A8A" alt="Academic use" />
 </p>
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" width="36" />
-  <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" width="36" />
-  <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="Scikit-learn" width="36" />
-  <img src="https://cdn.simpleicons.org/jupyter/F37626" alt="Jupyter" width="36" />
+  <img src="https://img.shields.io/badge/PYTHON-3.x-14B8A6?style=for-the-badge&logo=python&logoColor=white&labelColor=0F766E" alt="Python" />
+  <img src="https://img.shields.io/badge/SCIKIT--LEARN-ML-A855F7?style=for-the-badge&logo=scikitlearn&logoColor=white&labelColor=7E22CE" alt="Scikit-learn" />
+  <img src="https://img.shields.io/badge/PANDAS-DATA-06B6D4?style=for-the-badge&logo=pandas&logoColor=white&labelColor=155E75" alt="Pandas" />
+  <img src="https://img.shields.io/badge/JUPYTER-NOTEBOOK-F59E0B?style=for-the-badge&logo=jupyter&logoColor=white&labelColor=92400E" alt="Jupyter" />
 </p>
 
 <p align="center"><i>Spam email classification with classical machine learning models.</i></p>
