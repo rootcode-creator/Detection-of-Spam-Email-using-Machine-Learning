@@ -1,20 +1,21 @@
-# Spam Email Detection using Machine Learning
+<h1 align="center">Spam Email Detection using Machine Learning</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PROJECT-SPAM%20DETECTION-E11D48?style=for-the-badge&labelColor=7F1D1D" alt="Spam detection project" />
-  <img src="https://img.shields.io/badge/STATUS-COMPLETED-22C55E?style=for-the-badge&labelColor=14532D" alt="Completed" />
-  <img src="https://img.shields.io/badge/DOMAIN-NLP%20%2F%20ML-06B6D4?style=for-the-badge&labelColor=155E75" alt="NLP and machine learning" />
-  <img src="https://img.shields.io/badge/LICENSE-ACADEMIC-38BDF8?style=for-the-badge&labelColor=1E3A8A" alt="Academic use" />
+  <img src="https://img.shields.io/badge/STATUS-READY-111827?style=flat-square&labelColor=0F172A" alt="Status" />
+  <img src="https://img.shields.io/badge/DOMAIN-NLP%20%2F%20ML-111827?style=flat-square&labelColor=0F766E" alt="Domain" />
+  <img src="https://img.shields.io/badge/LICENSE-ACADEMIC-111827?style=flat-square&labelColor=1D4ED8" alt="License" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PYTHON-3.x-14B8A6?style=for-the-badge&logo=python&logoColor=white&labelColor=0F766E" alt="Python" />
-  <img src="https://img.shields.io/badge/SCIKIT--LEARN-ML-A855F7?style=for-the-badge&logo=scikitlearn&logoColor=white&labelColor=7E22CE" alt="Scikit-learn" />
-  <img src="https://img.shields.io/badge/PANDAS-DATA-06B6D4?style=for-the-badge&logo=pandas&logoColor=white&labelColor=155E75" alt="Pandas" />
-  <img src="https://img.shields.io/badge/JUPYTER-NOTEBOOK-F59E0B?style=for-the-badge&logo=jupyter&logoColor=white&labelColor=92400E" alt="Jupyter" />
+  <img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" width="36" />
+  <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" width="36" />
+  <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="Scikit-learn" width="36" />
+  <img src="https://cdn.simpleicons.org/jupyter/F37626" alt="Jupyter" width="36" />
 </p>
 
-## 📌 Project overview
+<p align="center"><i>Spam email classification with classical machine learning models.</i></p>
+
+## Project overview
 
 This repository contains a spam email classification workflow that predicts whether an email is spam or ham based on its text features. The project uses classical machine learning models from scikit-learn, along with preprocessing and feature extraction, to turn raw email content into a binary classification problem.
 
@@ -24,7 +25,7 @@ The goal is to provide a compact, reproducible example of email spam detection t
 > - Focus: email text classification for spam detection
 > - Approach: preprocessing + feature extraction + ML classification
 > - Outcome: compare several models and identify the best-performing classifier
-> - Dataset: Kaggle email/spam datasets included in the repository
+> - Dataset: email/spam datasets shared through Google Drive because the file is larger than 25 MB
 
 ## Table of contents
 
@@ -40,7 +41,7 @@ The goal is to provide a compact, reproducible example of email spam detection t
 - [Further reading & references](#further-reading--references)
 - [License](#license)
 
-## 📊 Dataset
+## Dataset
 
 The repository includes spam and ham email datasets under the `Datasets/` folder.
 
@@ -48,11 +49,11 @@ The repository includes spam and ham email datasets under the `Datasets/` folder
 - `Datasets/spam.csv`
 - `Datasets/spamham.csv`
 
-Original dataset reference: https://www.kaggle.com/datasets/subhajournal/phishingemails
+Dataset download link: [Google Drive folder](https://drive.google.com/drive/folders/1uQhAePsAJmVBoIGsjlZXsc66UGB2ujP5?usp=sharing)
 
 The data was cleaned and prepared before model training so the classifiers could learn from normalized, noise-reduced text features.
 
-## 🧪 Methodology
+## Methodology
 
 The project follows a standard machine learning pipeline for text classification:
 
@@ -62,7 +63,7 @@ The project follows a standard machine learning pipeline for text classification
 4. Train multiple classifiers such as Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, AdaBoost, KNN, SVC, Multinomial Naive Bayes, and MLP.
 5. Compare model performance and keep the best candidate for prediction.
 
-## 🗂️ Project structure
+## Project structure
 
 ```txt
 .
@@ -90,7 +91,7 @@ The project follows a standard machine learning pipeline for text classification
 └── README.md
 ```
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/rootcode-creator/Detection-of-Spam-Email-using-Machine-Learning.git
@@ -100,7 +101,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn jupyter
 
 If you want to open the notebook, launch Jupyter from the project directory and run `CSE_498_R_PROJECT.ipynb`.
 
-## 🧰 Tools
+## Tools
 
 - **Python:** primary language used for data preparation and model training.
 - **Pandas / NumPy:** dataset loading, cleaning, and feature handling.
@@ -108,14 +109,14 @@ If you want to open the notebook, launch Jupyter from the project directory and 
 - **Matplotlib / Seaborn:** visual analysis and dataset inspection.
 - **Jupyter Notebook:** interactive experimentation and reporting.
 
-## 🚀 Usage
+## Usage
 
 1. Open `CSE_498_R_PROJECT.ipynb` in Jupyter or VS Code.
 2. Run the preprocessing and training cells in order.
 3. Compare the classifier outputs and plots saved in `IMAGES/`.
 4. Use the saved model in `Model Example/model.pkl` for inference experiments.
 
-## 📈 Results
+## Results
 
 The project compares several standard classifiers for spam detection. The images in `IMAGES/` show the model outputs and the label distribution, making it easier to evaluate which classifier performs best for this dataset.
 
@@ -126,7 +127,7 @@ Typical comparison points include:
 - Performance of Naive Bayes on text-style features
 - Practical trade-offs between precision and recall for spam detection
 
-## 🔄 Project flow
+## Project flow
 
 ```text
 Email dataset
@@ -142,13 +143,13 @@ Evaluate and compare results
 Save the best model for prediction
 ```
 
-## 📚 Further reading & references
+## Further reading & references
 
 - Kaggle dataset link included in `Datasets/spam_email dataset link`
 - Scikit-learn documentation: https://scikit-learn.org/
 - Pandas documentation: https://pandas.pydata.org/
 - Jupyter documentation: https://jupyter.org/
 
-## 📜 License
+## License
 
 This project is intended for academic and educational use. Please credit the original dataset source and the libraries used if you reuse or extend the work.
