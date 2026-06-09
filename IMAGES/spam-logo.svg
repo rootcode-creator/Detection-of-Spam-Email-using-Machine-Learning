@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Spam email detection icon</title>
+  <desc id="desc">A clean centered envelope with a spam alert and detection magnifier</desc>
+  <rect width="900" height="360" fill="#ffffff"/>
+  <g transform="translate(255 48)">
+    <rect x="0" y="0" width="390" height="264" rx="34" fill="#f8fafc" stroke="#0f172a" stroke-width="10"/>
+    <path d="M58 78h274c12 0 22 10 22 22v114c0 12-10 22-22 22H58c-12 0-22-10-22-22V100c0-12 10-22 22-22z" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+    <path d="M39 101l151 91 151-91" fill="none" stroke="#0f172a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M39 213l111-70" fill="none" stroke="#0f172a" stroke-width="16" stroke-linecap="round"/>
+    <path d="M341 213l-111-70" fill="none" stroke="#0f172a" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="300" cy="92" r="48" fill="#ef4444"/>
+    <path d="M300 69v32" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="300" cy="112" r="6" fill="#ffffff"/>
+    <circle cx="136" cy="206" r="30" fill="#ffffff" stroke="#0f172a" stroke-width="12"/>
+    <path d="M160 230l52 52" stroke="#0f172a" stroke-width="16" stroke-linecap="round"/>
+    <path d="M255 198l18 18 34-38" fill="none" stroke="#22c55e" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
