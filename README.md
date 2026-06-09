@@ -1,4 +1,6 @@
-# Spam Email Detection using Machine Learning
+<h1 align="center">Spam Email Detection using Machine Learning</h1>
+
+<p align="center"><i>Spam and ham email classification with classical machine learning, preprocessing, and text feature extraction.</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PROJECT-SPAM%20DETECTION-E11D48?style=for-the-badge&labelColor=7F1D1D" alt="Spam detection project" />
@@ -12,6 +14,10 @@
   <img src="https://img.shields.io/badge/SCIKIT--LEARN-ML-A855F7?style=for-the-badge&logo=scikitlearn&logoColor=white&labelColor=7E22CE" alt="Scikit-learn" />
   <img src="https://img.shields.io/badge/PANDAS-DATA-06B6D4?style=for-the-badge&logo=pandas&logoColor=white&labelColor=155E75" alt="Pandas" />
   <img src="https://img.shields.io/badge/JUPYTER-NOTEBOOK-F59E0B?style=for-the-badge&logo=jupyter&logoColor=white&labelColor=92400E" alt="Jupyter" />
+</p>
+
+<p align="center">
+  <img src="IMAGES/email-spam.svg" alt="Spam Email Detection icon" width="220" />
 </p>
 
 ## 📌 Project overview
