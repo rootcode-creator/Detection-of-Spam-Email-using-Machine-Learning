@@ -1,4 +1,4 @@
-<h1 align="center"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Crect x='2' y='5' width='24' height='18' rx='5' fill='%230F766E'/%3E%3Cpath d='M5 8.5h18v11H5z' fill='none' stroke='%23FFFFFF' stroke-width='1.8'/%3E%3Cpath d='M5.8 9.2 14 15.1l8.2-5.9' fill='none' stroke='%23FFFFFF' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" alt="mail icon" width="28" height="28" style="vertical-align:middle;margin-right:10px;" />Spam Email Detection using Machine Learning</h1>
+<h1 align="center"><img src="IMAGES/spam-mail-icon.svg" alt="mail icon" width="28" height="28" style="vertical-align:middle;margin-right:10px;" />Spam Email Detection using Machine Learning</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PROJECT-SPAM%20DETECTION-E11D48?style=for-the-badge&labelColor=7F1D1D" alt="Spam detection project" />
