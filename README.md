@@ -20,7 +20,23 @@
   <img src="https://img.shields.io/badge/JUPYTER-NOTEBOOK-F59E0B?style=for-the-badge&logo=jupyter&logoColor=white&labelColor=92400E" alt="Jupyter" />
 </p>
 
-## 📌 Project overview
+
+## Table of contents
+
+- [Project intro](#project-intro)
+- [Dataset](#dataset)
+- [Methodology](#methodology)
+- [Installation](#installation)
+- [Tools](#tools)
+- [Usage](#usage)
+- [Results](#results)
+- [Project flow](#project-flow)
+- [Project structure](#project-structure)
+- [Further reading & references](#further-reading--references)
+- [License](#license)
+
+
+## 📌 Project intro
 
 This repository contains a spam email classification workflow that predicts whether an email is spam or ham based on its text features. The project uses classical machine learning models from scikit-learn, along with preprocessing and feature extraction, to turn raw email content into a binary classification problem.
 
@@ -32,19 +48,6 @@ The goal is to provide a compact, reproducible example of email spam detection t
 > - Outcome: compare several models and identify the best-performing classifier
 > - Dataset: email/spam datasets shared through Google Drive because the file is larger than 25 MB
 
-## Table of contents
-
-- [Project overview](#project-overview)
-- [Dataset](#dataset)
-- [Methodology](#methodology)
-- [Installation](#installation)
-- [Tools](#tools)
-- [Usage](#usage)
-- [Results](#results)
-- [Project flow](#project-flow)
-- [Project structure](#project-structure)
-- [Further reading & references](#further-reading--references)
-- [License](#license)
 
 ## 📊 Dataset
 
