@@ -25,13 +25,11 @@
 
 - [Project intro](#project-intro)
 - [Dataset](#dataset)
-- [Methodology](#methodology)
+- [Project structure](#project-structure)
 - [Installation](#installation)
 - [Tools](#tools)
-- [Usage](#usage)
+- [Methodology](#methodology)
 - [Results](#results)
-- [Project flow](#project-flow)
-- [Project structure](#project-structure)
 - [Further reading & references](#further-reading--references)
 - [License](#license)
 
@@ -61,15 +59,7 @@ Dataset download link: [Google Drive folder](https://drive.google.com/drive/fold
 
 The data was cleaned and prepared before model training so the classifiers could learn from normalized, noise-reduced text features.
 
-## 🧪 Methodology
 
-The project follows a standard machine learning pipeline for text classification:
-
-1. Load the email dataset and inspect the label distribution.
-2. Clean and preprocess the text data.
-3. Transform email text into numerical features.
-4. Train multiple classifiers such as Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, AdaBoost, KNN, SVC, Multinomial Naive Bayes, and MLP.
-5. Compare model performance and keep the best candidate for prediction.
 
 ## 🗂️ Project structure
 
@@ -99,6 +89,28 @@ The project follows a standard machine learning pipeline for text classification
 └── README.md
 ```
 
+
+### ✨ Project sections
+
+| Feature | Description |
+|---|---|
+| Notebook | `CSE_498_R_PROJECT.ipynb` — interactive notebook for preprocessing and training |
+| Preprocessing & Training | Reproducible pipeline for cleaning text and training multiple classifiers |
+| Model Comparison | Side-by-side evaluation of classifiers with metrics and selection guidance |
+| Visualizations | Plots and charts saved in `IMAGES/` for data exploration and model outputs |
+| Saved Model | Serialized model available at `Model Example/model.pkl` for inference experiments |
+
+### 🔄 Project flow
+
+```mermaid
+flowchart TD
+  A[Email dataset] --> B[Text cleaning and preprocessing]
+  B --> C[Feature extraction / vectorization]
+  C --> D[Train multiple ML classifiers]
+  D --> E[Evaluate and compare results]
+  E --> F[Save the best model for prediction]
+```
+
 ## ⚙️ Installation
 
 ```bash
@@ -117,12 +129,18 @@ If you want to open the notebook, launch Jupyter from the project directory and 
 - **Matplotlib / Seaborn:** visual analysis and dataset inspection.
 - **Jupyter Notebook:** interactive experimentation and reporting.
 
-## 🚀 Usage
 
-1. Open `CSE_498_R_PROJECT.ipynb` in Jupyter or VS Code.
-2. Run the preprocessing and training cells in order.
-3. Compare the classifier outputs and plots saved in `IMAGES/`.
-4. Use the saved model in `Model Example/model.pkl` for inference experiments.
+
+## 🧪 Methodology
+
+The project follows a standard machine learning pipeline for text classification:
+
+1. Load the email dataset and inspect the label distribution.
+2. Clean and preprocess the text data.
+3. Transform email text into numerical features.
+4. Train multiple classifiers such as Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, AdaBoost, KNN, SVC, Multinomial Naive Bayes, and MLP.
+5. Compare model performance and keep the best candidate for prediction.
+
 
 ## 📈 Results
 
@@ -135,21 +153,7 @@ Typical comparison points include:
 - Performance of Naive Bayes on text-style features
 - Practical trade-offs between precision and recall for spam detection
 
-## 🔄 Project flow
 
-```text
-Email dataset
-	↓
-Text cleaning and preprocessing
-	↓
-Feature extraction / vectorization
-	↓
-Train multiple ML classifiers
-	↓
-Evaluate and compare results
-	↓
-Save the best model for prediction
-```
 
 ## 📚 Further reading & references
 
